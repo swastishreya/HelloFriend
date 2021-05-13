@@ -6,7 +6,7 @@ distlib==0.3.0
 Django==3.2
 django-cors-headers==3.7.0
 django-neomodel==0.0.6
-importlib-metadata==4.0.1
+importlib-metadata
 iniconfig==1.1.1
 neo4j-driver==4.1.1
 neobolt==1.7.17
