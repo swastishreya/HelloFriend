@@ -1,0 +1,8 @@
+---
+- name: Pull Docker image of HelloFriend
+  hosts: all
+  tasks:
+    - name: Pull image HelloFriend
+      docker_image:
+        name: swastishreya/hellofriend:latest
+        source: pull
