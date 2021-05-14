@@ -97,7 +97,7 @@ DATABASES = {
     },
 }
 
-NEOMODEL_NEO4J_BOLT_URL = os.environ.get('NEO4J_BOLT_URL','bolt://neo4j:swasti123@localhost:7687')
+NEOMODEL_NEO4J_BOLT_URL = os.environ.get('NEO4J_BOLT_URL','bolt://neo4j:prabra6699@localhost:7687')
 
 # Optional configurations
 NEOMODEL_SIGNALS = True
