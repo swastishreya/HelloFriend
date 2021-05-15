@@ -87,6 +87,7 @@ def userDetails(request):
         try:
             logging.info("Executing userDetails POST method...")
             user = User(name=name, age=age, gender=gender, password=password, email=email, interests=interests)
+            user.save()
             for interest in interests:
                 interest_node = None
                 try:
@@ -105,7 +106,7 @@ def userDetails(request):
                 "interests": user.interests,
             }
             return JsonResponse(response)
-        except :
+        except:
             response = {"error": "Error occurred"}
             logging.error("Error occured while executing userDetails POST method...")
             return JsonResponse(response, safe=False)
