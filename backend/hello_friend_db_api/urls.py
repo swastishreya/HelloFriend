@@ -4,6 +4,8 @@ from django.urls import path
 
 urlpatterns = [
     path('user', userDetails),
+    path('login', checkLogin),
+    path('similarity', userSimilarity),
     path('getAllUsers', getAllUsers),
     path('connectUaU',connectUaU),
 ]
