@@ -36,3 +36,119 @@
 2021-05-15 01:05:56 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/connectors.py changed, reloading.
 2021-05-15 01:05:56 INFO-Watching for file changes with StatReloader
 2021-05-15 16:18:04 INFO-Watching for file changes with StatReloader
+2021-05-16 02:12:29 INFO-Watching for file changes with StatReloader
+2021-05-16 02:15:11 ERROR-Error occured while executing userDetails POST method...
+2021-05-16 02:17:21 ERROR-Error occured while executing userDetails POST method...
+2021-05-16 02:19:37 ERROR-Error occured while executing userDetails POST method...
+2021-05-16 02:22:09 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:22:16 INFO-Watching for file changes with StatReloader
+2021-05-16 02:37:31 ERROR-Internal Server Error: /user
+Traceback (most recent call last):
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py", line 88, in userDetails
+    json_data = json.loads(request.body)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-05-16 02:38:43 ERROR-Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py", line 59, in checkLogin
+    json_data = json.loads(request.body)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-05-16 02:44:24 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:44:33 INFO-Watching for file changes with StatReloader
+2021-05-16 02:44:38 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:44:39 INFO-Watching for file changes with StatReloader
+2021-05-16 02:44:44 ERROR-Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py", line 59, in checkLogin
+    json_data = json.loads(request.body.read().decode())
+AttributeError: 'bytes' object has no attribute 'read'
+2021-05-16 02:45:30 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:45:31 INFO-Watching for file changes with StatReloader
+2021-05-16 02:45:44 ERROR-Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py", line 59, in checkLogin
+    json_data = json.loads(request.body).read().decode()
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2021-05-16 02:46:23 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:46:25 INFO-Watching for file changes with StatReloader
+2021-05-16 02:46:27 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:46:29 INFO-Watching for file changes with StatReloader
+2021-05-16 02:46:31 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:46:32 INFO-Watching for file changes with StatReloader
+2021-05-16 02:58:19 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:58:20 INFO-Watching for file changes with StatReloader
+2021-05-16 02:58:48 ERROR-Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view hello_friend_db_api.views.user.checkLogin didn't return an HttpResponse object. It returned None instead.
+2021-05-16 03:01:05 ERROR-Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view hello_friend_db_api.views.user.checkLogin didn't return an HttpResponse object. It returned None instead.
+2021-05-16 03:01:50 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 03:01:52 INFO-Watching for file changes with StatReloader
+2021-05-16 03:01:55 ERROR-Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/brahma/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py", line 60, in checkLogin
+    json_data = json.loads(request.body).read().decode()
+AttributeError: 'dict' object has no attribute 'read'
+2021-05-16 03:02:09 INFO-/home/brahma/IIITB/8th sem/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 03:02:11 INFO-Watching for file changes with StatReloader
+2021-05-16 03:08:45 ERROR-Error occured while executing checkLogin GET method...
