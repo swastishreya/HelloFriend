@@ -37,15 +37,15 @@ def getAllUsers(request):
 @csrf_exempt
 def userSimilarity(request):
     if request.method == 'GET':
-        # get one user by name
-        name1 = request.GET.get('name1', ' ')
-        name2 = request.GET.get('name2', ' ')
+        json_data = json.loads(request.body)
+        name1 = json_data['name1']
+        name2 = json_data['name2']
         try:
             logging.info("Executing userDetails GET method...")
             sim, common_interest = User.getSimilarity(name1, name2)
             response = {
                 "similarity_score": sim,
-                "common_interests": common_interest
+                "common_interests": list(common_interest)
             }
             return JsonResponse(response, safe=False)
         except :
@@ -54,13 +54,42 @@ def userSimilarity(request):
             return JsonResponse(response, safe=False)
 
 @csrf_exempt
+def checkLogin(request):
+    if request.method == 'GET':
+        json_data = json.loads(request.body)
+        password = json_data['password']
+        email = json_data['email']
+        try:
+            user = User.nodes.get(email=email)
+            if (user.password == password):
+                response = {
+                    "validLogin": 'True',
+                    "uid": user.uid,
+                    "name": user.name,
+                    "age": user.age,
+                    "gender": user.gender,
+                    "email": user.email,
+                    "interests": user.interests,
+                }
+                return JsonResponse(response, safe=False)
+            else:
+                response = {
+                    "validLogin": 'False'
+                }
+                return JsonResponse(response, safe=False)
+        except:
+            response = {"error": "Error occurred"}
+            logging.error("Error occured while executing checkLogin GET method...")
+            return JsonResponse(response, safe=False)
+
+@csrf_exempt
 def userDetails(request):
     if request.method == 'GET':
-        # get one user by name
-        name = request.GET.get('name', ' ')
+        json_data = json.loads(request.body)
+        email = json_data['email']
         try:
             logging.info("Executing userDetails GET method...")
-            user = User.nodes.get(name=name)
+            user = User.nodes.get(email=email)
             response = {
                 "uid": user.uid,
                 "name": user.name,
@@ -91,9 +120,9 @@ def userDetails(request):
             for interest in interests:
                 interest_node = None
                 try:
-                    interest_node = Interest.nodes.get(name=interest)
+                    interest_node = Interest.nodes.get(name=interest.label)
                 except:
-                    interest_node = Interest(name=interest)
+                    interest_node = Interest(name=interest.label)
                     interest_node.save()
                 user.interestedIn.connect(interest_node)
             user.save()
@@ -134,9 +163,9 @@ def userDetails(request):
             for interest in interests:
                 interest_node = None
                 try:
-                    interest_node = Interest.nodes.get(name=interest)
+                    interest_node = Interest.nodes.get(name=interest.label)
                 except:
-                    interest_node = Interest(name=interest)
+                    interest_node = Interest(name=interest.label)
                     interest_node.save()
                 user.interestedIn.connect(interest_node)
             user.save()
