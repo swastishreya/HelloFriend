@@ -1,0 +1,30 @@
+---
+- name: Pull Docker image of HelloFriend
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Delete a network, disconnecting all containers
+      docker_network:
+        name: network_one
+        state: absent
+        force: yes
+
+    - name: Create a network
+      docker_network:
+        name: network_one
+
+    - name: Pull image HelloFriendFrontend
+      docker_image:
+        name: brahma99/hellofriendfrontend:latest
+        source: pull
+
+    - name: Pull image HelloFriendBackend
+      docker_image:
+        name: swastishreya/hellofriendbackend:latest
+        source: pull
+        
+    - name: Pull neo4j Official Docker Image
+      docker_image:
+        name: neo4j
+        source: pull
