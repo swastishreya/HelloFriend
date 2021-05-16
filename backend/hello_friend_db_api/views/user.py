@@ -36,6 +36,39 @@ def getAllUsers(request):
 
 @csrf_exempt
 def userSimilarity(request):
+    if request.method == 'POST':
+        json_data = json.loads(request.body)
+        email = json_data['email']
+        try:
+            user_current = User.nodes.get(email=email)
+            users = User.nodes.all()
+            response = []
+            similarity = dict()
+            logging.info("Executing Similar Users method...")
+            for user in users:
+                if user.uid != user_current.uid:
+                    sim, common_interest = User.getSimilarity(user_current, user)
+                    obj = {
+                        "uid": user.uid,
+                        "name": user.name,
+                        "age": user.age,
+                        "gender": user.gender,
+                        "email": user.email,
+                        "interests": user.interests,
+                        "similarity_score": sim,
+                        "common_interests": list(common_interest)
+                    }
+                    similarity[(sim, user.uid)] = obj
+            similarity_keys = list(similarity.keys())
+            similarity_keys.sort(reverse=True)
+            for key in similarity_keys:
+                response.append(similarity[key])
+            return JsonResponse(response, safe=False)
+        except:
+            response = {"error": "Error occurred"}
+            logging.error("Error occured while executing similar users method...")
+            return JsonResponse(response, safe=False)
+
     if request.method == 'GET':
         json_data = json.loads(request.body)
         name1 = json_data['name1']
