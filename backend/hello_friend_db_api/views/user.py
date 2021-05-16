@@ -210,6 +210,8 @@ def userDetails(request):
                 "name": user.name,
                 "age": user.age,
                 "gender": user.gender,
+                "email": user.email,
+                "interests": user.interests,
             }
             return JsonResponse(response, safe=False)
         except:
