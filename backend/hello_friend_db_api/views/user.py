@@ -88,7 +88,8 @@ def userSimilarity(request):
 
 @csrf_exempt
 def checkLogin(request):
-    if request.method == 'GET':
+    if request.method == 'POST':
+        # print(request.body)
         json_data = json.loads(request.body)
         password = json_data['password']
         email = json_data['email']
@@ -153,9 +154,9 @@ def userDetails(request):
             for interest in interests:
                 interest_node = None
                 try:
-                    interest_node = Interest.nodes.get(name=interest.label)
+                    interest_node = Interest.nodes.get(name=interest['label'])
                 except:
-                    interest_node = Interest(name=interest.label)
+                    interest_node = Interest(name=interest['label'])
                     interest_node.save()
                 user.interestedIn.connect(interest_node)
             user.save()
@@ -196,9 +197,9 @@ def userDetails(request):
             for interest in interests:
                 interest_node = None
                 try:
-                    interest_node = Interest.nodes.get(name=interest.label)
+                    interest_node = Interest.nodes.get(name=interest['label'])
                 except:
-                    interest_node = Interest(name=interest.label)
+                    interest_node = Interest(name=interest['label'])
                     interest_node.save()
                 user.interestedIn.connect(interest_node)
             user.save()
