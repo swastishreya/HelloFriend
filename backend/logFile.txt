@@ -36,3 +36,187 @@
 2021-05-15 01:05:56 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/connectors.py changed, reloading.
 2021-05-15 01:05:56 INFO-Watching for file changes with StatReloader
 2021-05-15 16:18:04 INFO-Watching for file changes with StatReloader
+2021-05-15 19:07:45 INFO-Watching for file changes with StatReloader
+2021-05-15 19:08:39 ERROR-Invalid HTTP_HOST header: '17fbdabf443b.ngrok.io'. You may need to add '17fbdabf443b.ngrok.io' to ALLOWED_HOSTS.
+2021-05-15 19:08:41 WARNING-Bad Request: /
+2021-05-15 19:11:43 ERROR-Invalid HTTP_HOST header: '17fbdabf443b.ngrok.io'. You may need to add '17fbdabf443b.ngrok.io' to ALLOWED_HOSTS.
+2021-05-15 19:11:43 WARNING-Bad Request: /user
+2021-05-15 19:12:20 ERROR-Invalid HTTP_HOST header: '17fbdabf443b.ngrok.io'. You may need to add '17fbdabf443b.ngrok.io' to ALLOWED_HOSTS.
+2021-05-15 19:12:20 WARNING-Bad Request: //getAllUsers
+2021-05-15 19:12:56 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/backend/settings.py changed, reloading.
+2021-05-15 19:12:56 INFO-Watching for file changes with StatReloader
+2021-05-15 19:12:58 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/backend/settings.py changed, reloading.
+2021-05-15 19:12:58 INFO-Watching for file changes with StatReloader
+2021-05-15 19:13:04 ERROR-Error occured while executing userDetails POST method...
+2021-05-15 19:14:32 ERROR-Error occured while executing userDetails POST method...
+2021-05-15 19:21:10 ERROR-Internal Server Error: /user
+2021-05-15 19:22:34 ERROR-Error occured while executing userDetails POST method...
+2021-05-15 19:26:52 INFO-Watching for file changes with StatReloader
+2021-05-15 19:27:14 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/backend/settings.py changed, reloading.
+2021-05-15 19:27:14 INFO-Watching for file changes with StatReloader
+2021-05-15 19:29:25 ERROR-Internal Server Error: /user
+2021-05-15 19:33:00 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:33:00 INFO-Watching for file changes with StatReloader
+2021-05-15 19:33:05 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:33:05 INFO-Watching for file changes with StatReloader
+2021-05-15 19:33:08 ERROR-Internal Server Error: /user
+2021-05-15 19:34:21 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:34:21 INFO-Watching for file changes with StatReloader
+2021-05-15 19:34:23 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:34:23 INFO-Watching for file changes with StatReloader
+2021-05-15 19:34:25 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:34:25 INFO-Watching for file changes with StatReloader
+2021-05-15 19:34:31 ERROR-Internal Server Error: /user
+2021-05-15 19:35:10 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:35:11 INFO-Watching for file changes with StatReloader
+2021-05-15 19:35:20 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:35:20 INFO-Watching for file changes with StatReloader
+2021-05-15 19:41:16 WARNING-Forbidden (CSRF cookie not set.): /getAllUsers
+2021-05-15 19:41:19 WARNING-Forbidden (CSRF cookie not set.): /getAllUsers
+2021-05-15 19:41:35 INFO-Watching for file changes with StatReloader
+2021-05-15 19:41:49 WARNING-Forbidden (CSRF cookie not set.): /getAllUsers
+2021-05-15 19:42:50 ERROR-Internal Server Error: /user
+2021-05-15 19:44:24 ERROR-Error occured while executing userDetails POST method...
+2021-05-15 19:45:58 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:45:58 INFO-Watching for file changes with StatReloader
+2021-05-15 19:46:05 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:46:06 INFO-Watching for file changes with StatReloader
+2021-05-15 19:46:11 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:46:11 INFO-Watching for file changes with StatReloader
+2021-05-15 19:46:16 ERROR-Error occured while executing userDetails POST method...
+2021-05-15 19:46:26 ERROR-Error occured while executing userDetails POST method...
+2021-05-15 19:47:18 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:47:18 INFO-Watching for file changes with StatReloader
+2021-05-15 19:47:20 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:47:21 INFO-Watching for file changes with StatReloader
+2021-05-15 19:47:24 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:47:24 INFO-Watching for file changes with StatReloader
+2021-05-15 19:47:26 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:47:26 INFO-Watching for file changes with StatReloader
+2021-05-15 19:47:41 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:47:41 INFO-Watching for file changes with StatReloader
+2021-05-15 19:47:45 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:47:45 INFO-Watching for file changes with StatReloader
+2021-05-15 19:48:25 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:48:26 INFO-Watching for file changes with StatReloader
+2021-05-15 19:48:36 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:48:36 INFO-Watching for file changes with StatReloader
+2021-05-15 19:48:38 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:48:39 INFO-Watching for file changes with StatReloader
+2021-05-15 19:48:41 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:48:41 INFO-Watching for file changes with StatReloader
+2021-05-15 19:48:47 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:48:48 INFO-Watching for file changes with StatReloader
+2021-05-15 19:48:53 INFO-Watching for file changes with StatReloader
+2021-05-15 19:48:56 ERROR-Internal Server Error: /user
+2021-05-15 19:58:41 INFO-Watching for file changes with StatReloader
+2021-05-15 19:59:45 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:59:45 INFO-Watching for file changes with StatReloader
+2021-05-15 19:59:47 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 19:59:48 INFO-Watching for file changes with StatReloader
+2021-05-15 20:00:05 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 20:00:05 INFO-Watching for file changes with StatReloader
+2021-05-15 20:00:49 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 20:00:49 INFO-Watching for file changes with StatReloader
+2021-05-15 20:06:48 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-15 20:06:49 INFO-Watching for file changes with StatReloader
+2021-05-15 20:07:52 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/backend/settings.py changed, reloading.
+2021-05-15 20:07:53 INFO-Watching for file changes with StatReloader
+2021-05-15 20:38:36 INFO-Watching for file changes with StatReloader
+2021-05-15 20:43:32 ERROR-Internal Server Error: /user
+2021-05-15 20:44:14 WARNING-Not Found: /favicon.ico
+2021-05-15 20:49:04 ERROR-Internal Server Error: /user
+2021-05-15 20:49:04 WARNING-Not Found: /favicon.ico
+2021-05-16 01:08:46 INFO-Watching for file changes with StatReloader
+2021-05-16 01:10:58 ERROR-Internal Server Error: /login
+2021-05-16 01:11:05 ERROR-Error occured while executing checkLogin GET method...
+2021-05-16 01:12:11 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:12:12 INFO-Watching for file changes with StatReloader
+2021-05-16 01:12:15 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:12:15 INFO-Watching for file changes with StatReloader
+2021-05-16 01:12:19 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:12:19 INFO-Watching for file changes with StatReloader
+2021-05-16 01:12:29 ERROR-Error occured while executing checkLogin GET method...
+2021-05-16 01:13:14 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:13:15 INFO-Watching for file changes with StatReloader
+2021-05-16 01:13:19 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:13:19 INFO-Watching for file changes with StatReloader
+2021-05-16 01:13:21 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:13:22 INFO-Watching for file changes with StatReloader
+2021-05-16 01:13:26 ERROR-Internal Server Error: /login
+2021-05-16 01:14:49 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/backend/settings.py changed, reloading.
+2021-05-16 01:14:49 INFO-Watching for file changes with StatReloader
+2021-05-16 01:14:51 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/backend/settings.py changed, reloading.
+2021-05-16 01:14:51 INFO-Watching for file changes with StatReloader
+2021-05-16 01:16:16 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:16:17 INFO-Watching for file changes with StatReloader
+2021-05-16 01:16:19 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:16:19 INFO-Watching for file changes with StatReloader
+2021-05-16 01:16:23 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:16:23 INFO-Watching for file changes with StatReloader
+2021-05-16 01:16:25 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:16:26 INFO-Watching for file changes with StatReloader
+2021-05-16 01:19:41 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:19:42 INFO-Watching for file changes with StatReloader
+2021-05-16 01:19:43 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:19:44 INFO-Watching for file changes with StatReloader
+2021-05-16 01:19:47 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:19:47 INFO-Watching for file changes with StatReloader
+2021-05-16 01:19:49 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:19:49 INFO-Watching for file changes with StatReloader
+2021-05-16 01:19:50 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:19:51 INFO-Watching for file changes with StatReloader
+2021-05-16 01:19:52 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:19:52 INFO-Watching for file changes with StatReloader
+2021-05-16 01:20:45 ERROR-Error occured while executing userDetails GET method...
+2021-05-16 01:21:18 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:21:18 INFO-Watching for file changes with StatReloader
+2021-05-16 01:21:21 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:21:22 INFO-Watching for file changes with StatReloader
+2021-05-16 01:21:27 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:21:28 INFO-Watching for file changes with StatReloader
+2021-05-16 01:21:28 ERROR-Internal Server Error: /similarity
+2021-05-16 01:25:18 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:25:19 INFO-Watching for file changes with StatReloader
+2021-05-16 01:25:26 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:25:27 INFO-Watching for file changes with StatReloader
+2021-05-16 01:25:40 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:25:40 INFO-Watching for file changes with StatReloader
+2021-05-16 01:25:45 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:25:45 INFO-Watching for file changes with StatReloader
+2021-05-16 01:25:48 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:25:49 INFO-Watching for file changes with StatReloader
+2021-05-16 01:25:53 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:25:53 INFO-Watching for file changes with StatReloader
+2021-05-16 01:25:54 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:25:55 INFO-Watching for file changes with StatReloader
+2021-05-16 01:25:58 ERROR-Internal Server Error: /similarity
+2021-05-16 01:27:24 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:27:24 INFO-Watching for file changes with StatReloader
+2021-05-16 01:27:46 ERROR-Internal Server Error: /similarity
+2021-05-16 01:30:52 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:30:54 INFO-Watching for file changes with StatReloader
+2021-05-16 01:31:03 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:31:04 INFO-Watching for file changes with StatReloader
+2021-05-16 01:31:28 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:31:29 INFO-Watching for file changes with StatReloader
+2021-05-16 01:31:32 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:31:33 INFO-Watching for file changes with StatReloader
+2021-05-16 01:31:35 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 01:31:36 INFO-Watching for file changes with StatReloader
+2021-05-16 02:08:17 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:08:18 INFO-Watching for file changes with StatReloader
+2021-05-16 02:08:26 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:08:26 INFO-Watching for file changes with StatReloader
+2021-05-16 02:08:30 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:08:31 INFO-Watching for file changes with StatReloader
+2021-05-16 02:08:47 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:08:48 INFO-Watching for file changes with StatReloader
+2021-05-16 02:08:50 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:08:50 INFO-Watching for file changes with StatReloader
+2021-05-16 02:21:18 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:21:18 INFO-Watching for file changes with StatReloader
+2021-05-16 02:21:22 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:21:22 INFO-Watching for file changes with StatReloader
+2021-05-16 02:21:25 INFO-/home/swasti/Documents/SPE/HelloFriend/backend/hello_friend_db_api/views/user.py changed, reloading.
+2021-05-16 02:21:25 INFO-Watching for file changes with StatReloader
