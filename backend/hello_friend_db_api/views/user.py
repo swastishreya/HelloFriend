@@ -185,10 +185,9 @@ def userDetails(request):
         email = json_data['email']
         interests = json_data['interests']
         interests = [interest['label'] for interest in interests]
-        uid = json_data['uid']
         try:
             logging.info("Executing userDetails PUT method...")
-            user = User.nodes.get(uid=uid)
+            user = User.nodes.get(email=email)
             user.name = name
             user.age = age
             user.gender = gender
