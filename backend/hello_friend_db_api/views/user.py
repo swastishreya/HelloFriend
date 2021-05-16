@@ -47,7 +47,7 @@ def userSimilarity(request):
         logging.info("Executing Similar Users method...")
         for user in users:
             if user.uid != user_current.uid:
-                sim, common_interest = User.getSimilarity(user_current.name, user.name)
+                sim, common_interest = User.getSimilarityWithInterests(user_current.interests, user.interests)
                 obj = {
                     "uid": user.uid,
                     "name": user.name,

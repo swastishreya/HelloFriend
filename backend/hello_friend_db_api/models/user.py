@@ -24,6 +24,13 @@ class User(StructuredNode):
         print(common_interest)
         return len(common_interest), common_interest
 
+    def getSimilarityWithInterests(interests1, interests2):
+        set1 = set(interests1)
+        set2 = set(interests2)
+        common_interest = set1.intersection(set2)
+        print(common_interest)
+        return len(common_interest), common_interest
+
     def getTraversal(user1):
         user1 = User.nodes.get(name=user1)
         definition = dict(node_class=User, direction=EITHER,
